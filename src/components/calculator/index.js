@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './calculator.css'
 import Display from '../display'
 import Button from '../button'
-import { BASE_LAYOUT } from '../../constants'
+import { BASE_LAYOUT, ERROR } from '../../constants'
 import { calculatorActionHandler } from '../../utilities'
 
 const Calculator = props => {
@@ -17,7 +17,11 @@ const Calculator = props => {
       <Display displayedText={calculatorValue} />
       <div className='calculator-buttons'>
         {BASE_LAYOUT.map(btn => (
-          <Button key={btn.text} onClick={onClickHandler}>
+          <Button
+            key={btn.text}
+            onClick={onClickHandler}
+            disabled={calculatorValue === ERROR && btn.text !== 'CE'}
+          >
             {btn.text}
           </Button>
         ))}

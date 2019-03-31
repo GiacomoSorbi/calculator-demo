@@ -18,7 +18,7 @@ export const calculatorActionHandler = (currentExpression, newAction) => {
 export const evaluateExpression = expression => {
   try {
     const result = eval(expression)
-    return Math.abs(result) === Infinity ? ERROR : result
+    return !Number.isFinite(Math.abs(result)) ? ERROR : result
   } catch (error) {
     return ERROR
   }

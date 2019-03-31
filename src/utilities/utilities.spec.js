@@ -100,6 +100,9 @@ describe('calculatorActionHandler should', () => {
     currentExpression = '4/0'
     newAction = '='
     expect(calculatorActionHandler(currentExpression, newAction)).toBe(ERROR)
+    currentExpression = '0/0'
+    newAction = '='
+    expect(calculatorActionHandler(currentExpression, newAction)).toBe(ERROR)
   })
 })
 

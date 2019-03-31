@@ -1,15 +1,23 @@
 .display-container {
   text-align: right;
-  font-size: calc(10px + 2vh);
+  font-family: calculator;
+  font-size: 4.5vh;
   font-weight: bold;
   overflow: hidden;
   border: 1vmin blue outset;
-  width: 96%;
+  width: 94%;
   height: 10vmin;
+  padding: 0 1vmin;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .display-container {
     font-size: calc(10px + 5vh);
   }
+}
+
+@font-face {
+  font-family: calculator;
+  src: url('../../assets/pocket_calcuatlor_ot.otf') format('embedded-opentype'),
+    url('../../assets/pocket_calcuatlor_ot.otf');
 }

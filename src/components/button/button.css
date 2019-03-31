@@ -7,12 +7,24 @@
   font-size: 5vh;
   font-weight: bold;
   transition: 0.4s background-color ease-in-out, 0.4s color ease-in-out;
+  cursor: pointer;
 }
 
-@media only screen and (min-width: 768px) {
+.calculator-btn:disabled {
+  filter: grayscale(80%);
+  background-color: lightgray;
+  cursor: auto;
+}
+
+@media only screen and (min-width: 1024px) {
   .calculator-btn:hover {
     background-color: blue;
     color: white;
     transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out;
+  }
+
+  .calculator-btn:disabled:hover {
+    background-color: lightgray;
+    color: blue;
   }
 }

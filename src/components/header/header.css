@@ -13,7 +13,7 @@
   height: 8vh;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .app-header {
     padding: 2vh;
   }
