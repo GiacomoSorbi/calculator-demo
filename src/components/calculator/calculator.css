@@ -9,3 +9,19 @@
   color: white;
   padding: 2vmin;
 }
+
+.calculator-container .calculator-buttons {
+  margin-top: 2vh;
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .calculator-container {
+    height: 80vh;
+    margin: 3vh auto;
+    width: 50vmin;
+    border: 1vh blue outset;
+  }
+}
