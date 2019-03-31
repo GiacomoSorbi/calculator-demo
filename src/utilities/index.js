@@ -6,6 +6,8 @@ export const calculatorActionHandler = (currentExpression, newAction) => {
       return ''
     case 'C':
       return currentExpression.slice(0, -1)
+    case '.':
+      return (currentExpression || '0') + newAction
     case '=':
       return evaluateExpression(currentExpression)
     default:

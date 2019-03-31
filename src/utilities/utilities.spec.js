@@ -67,6 +67,25 @@ describe('calculatorActionHandler should', () => {
     expect(calculatorActionHandler(currentExpression, newAction)).toBe('')
   })
 
+  it("add an initial 0 when '.' is inputted only when first character", () => {
+    let currentExpression, newAction
+    currentExpression = ''
+    newAction = '.'
+    expect(calculatorActionHandler(currentExpression, newAction)).toBe(
+      '0' + newAction,
+    )
+    currentExpression = '23'
+    newAction = '.'
+    expect(calculatorActionHandler(currentExpression, newAction)).toBe(
+      currentExpression + newAction,
+    )
+    currentExpression = '4/7'
+    newAction = '.'
+    expect(calculatorActionHandler(currentExpression, newAction)).toBe(
+      currentExpression + newAction,
+    )
+  })
+
   it(`provide the expected result or '${ERROR}' when '=' is passed`, () => {
     let currentExpression, newAction
     currentExpression = '2+2'

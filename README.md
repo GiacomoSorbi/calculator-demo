@@ -1,3 +1,5 @@
+## Version number: 627d7be039e0085025a51d47e42bdd970409ec1c
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -30,3 +32,16 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Nice to Have/Do
+
+With more time available, I would definitely consider:
+
+- expanding/improving the test coverage;
+- implementing better handling of calculator-like functionalities (after pressing `=` for example any number should reset the display, not add to that), possibly changing the state to keep track of both the current expression and the last key pressed;
+- dynamically handling the size of the display text to go on 2 lines when there are more than X characters;
+- avoiding to use `eval` to compute a result with [`evaluateExpression`](./src/utilities/index.js) - as they say: "eval is evil";
+- ideally replacing it with a parsing function that moves singling out elements in parenthesis, recursively calling itself to extracts numbers and operators and to compute the result of it;
+- better error handling (currently we just display "Error" in any case, be it a division by zero, a missing parenthesis, etc)
+- support for other insert operators (exponentiaion, modulo);
+- support for non-insert operators (logarithm, abs).
