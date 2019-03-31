@@ -2,4 +2,17 @@
   background-color: white;
   color: blue;
   width: 25%;
+  border: 1vh blue outset;
+  outline: none;
+  font-size: 5vh;
+  font-weight: bold;
+  transition: 0.4s background-color ease-in-out, 0.4s color ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+  .calculator-btn:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.2s background-color ease-in-out, 0.2s color ease-in-out;
+  }
 }

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should have a consistent structure 1`] = `
+<Button
+  onClick={[MockFunction]}
+>
+  <button
+    className="calculator-btn"
+    onClick={[MockFunction]}
+  />
+</Button>
+`;

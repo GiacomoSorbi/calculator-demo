@@ -1,4 +1,8 @@
 export const BASE_LAYOUT = [
+  { text: '(' },
+  { text: 'CE' },
+  { text: ')' },
+  { text: 'C' },
   { text: '7' },
   { text: '8' },
   { text: '9' },
