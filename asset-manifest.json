@@ -1,5 +1,5 @@
 {
-  "main.css": "/calculator-demo/static/css/main.f8545ce7.chunk.css",
+  "main.css": "/calculator-demo/static/css/main.6153f60b.chunk.css",
   "main.js": "/calculator-demo/static/js/main.a8abe579.chunk.js",
   "main.js.map": "/calculator-demo/static/js/main.a8abe579.chunk.js.map",
   "runtime~main.js": "/calculator-demo/static/js/runtime~main.1429e952.js",
@@ -7,9 +7,9 @@
   "static/js/2.18326d6d.chunk.js": "/calculator-demo/static/js/2.18326d6d.chunk.js",
   "static/js/2.18326d6d.chunk.js.map": "/calculator-demo/static/js/2.18326d6d.chunk.js.map",
   "index.html": "/calculator-demo/index.html",
-  "precache-manifest.5c0b87a06c25fdfa5af32b3cea727ed3.js": "/calculator-demo/precache-manifest.5c0b87a06c25fdfa5af32b3cea727ed3.js",
+  "precache-manifest.8a2a7f56245787de5b84ad2bdc0b3b90.js": "/calculator-demo/precache-manifest.8a2a7f56245787de5b84ad2bdc0b3b90.js",
   "service-worker.js": "/calculator-demo/service-worker.js",
-  "static/css/main.f8545ce7.chunk.css.map": "/calculator-demo/static/css/main.f8545ce7.chunk.css.map",
+  "static/css/main.6153f60b.chunk.css.map": "/calculator-demo/static/css/main.6153f60b.chunk.css.map",
   "static/media/logo.svg": "/calculator-demo/static/media/logo.d98a6a66.svg",
   "static/media/display.css": "/calculator-demo/static/media/pocket_calcuatlor_ot.974e5277.otf"
 }
