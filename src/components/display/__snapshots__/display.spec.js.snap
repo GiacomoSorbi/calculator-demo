@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display should have a consistent structure 1`] = `
+<Display
+  displayedText="(2+2)*(2+2)"
+>
+  <div
+    className="display-container"
+  >
+    <span>
+      (2+2)*(2+2)
+    </span>
+  </div>
+</Display>
+`;

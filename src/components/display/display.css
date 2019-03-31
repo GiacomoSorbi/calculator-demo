@@ -1,0 +1,9 @@
+.display-container {
+  text-align: right;
+  font-size: 5vh;
+  font-weight: bold;
+  overflow: hidden;
+  border: 1vmin blue outset;
+  width: 96%;
+  height: 10vmin;
+}
