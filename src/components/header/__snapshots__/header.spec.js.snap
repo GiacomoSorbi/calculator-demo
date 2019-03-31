@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should have a consistent structure 1`] = `
+<Header>
+  <div
+    className="app-header"
+  >
+    <img
+      alt="equal experts"
+      className="logo"
+      src="logo.svg"
+    />
+  </div>
+</Header>
+`;

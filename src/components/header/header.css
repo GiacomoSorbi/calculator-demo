@@ -1,0 +1,13 @@
+.app-header {
+  background-color: #1795d4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logo {
+  display: block;
+  height: 8vh;
+}
