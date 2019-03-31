@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './calculator.css'
 import Display from '../display'
 import Button from '../button'
-import { BASE_LAYOUT } from '../constants'
+import { BASE_LAYOUT } from '../../constants'
+import { calculatorActionHandler } from '../../utilities'
 
 const Calculator = props => {
-  const onClickHandler = event => console.log(event.target.innerText)
+  const [calculatorValue, setCalculatorValue] = useState('')
+  const onClickHandler = event => {
+    setCalculatorValue(
+      calculatorActionHandler(calculatorValue, event.target.innerText),
+    )
+  }
   return (
     <div className='calculator-container'>
-      <Display displayedText={'3.14'} />
+      <Display displayedText={calculatorValue} />
       <div className='calculator-buttons'>
         {BASE_LAYOUT.map(btn => (
           <Button key={btn.text} onClick={onClickHandler}>

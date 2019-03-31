@@ -20,3 +20,5 @@ export const BASE_LAYOUT = [
   { text: '=' },
   { text: '+' },
 ]
+
+export const ERROR = 'Error'
