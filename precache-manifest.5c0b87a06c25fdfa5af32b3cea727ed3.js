@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "12c4e48feeaead0a9347",
-    "url": "/calculator-demo/static/css/main.fce0be00.chunk.css"
+    "revision": "f712a450da44b5e74fcb",
+    "url": "/calculator-demo/static/css/main.f8545ce7.chunk.css"
   },
   {
-    "revision": "12c4e48feeaead0a9347",
-    "url": "/calculator-demo/static/js/main.6282f0b2.chunk.js"
+    "revision": "f712a450da44b5e74fcb",
+    "url": "/calculator-demo/static/js/main.a8abe579.chunk.js"
   },
   {
     "revision": "b3e2e091081e854f5525",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/calculator-demo/static/media/pocket_calcuatlor_ot.974e5277.otf"
   },
   {
-    "revision": "aaf3e8319558477f07f0836be10f5dd4",
+    "revision": "544c4d190394bfd067da163f2cb5c3a8",
     "url": "/calculator-demo/index.html"
   }
 ];
